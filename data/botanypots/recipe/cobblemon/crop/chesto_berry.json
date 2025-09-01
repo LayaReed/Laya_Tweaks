@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:chesto_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:chesto_berry",
+  "input": {"item": "cobblemon:chesto_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:chesto_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:chesto_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:chesto_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

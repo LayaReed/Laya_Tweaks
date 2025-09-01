@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:watmel_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:watmel_berry",
+  "input": {"item": "cobblemon:watmel_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:watmel_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:watmel_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:watmel_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

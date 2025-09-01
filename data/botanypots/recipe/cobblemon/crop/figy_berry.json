@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:figy_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:figy_berry",
+  "input": {"item": "cobblemon:figy_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:figy_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:figy_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:figy_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

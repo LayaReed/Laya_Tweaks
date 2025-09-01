@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:kee_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:kee_berry",
+  "input": {"item": "cobblemon:kee_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:kee_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:kee_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:kee_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

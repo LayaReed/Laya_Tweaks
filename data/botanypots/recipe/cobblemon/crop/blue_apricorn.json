@@ -1,0 +1,36 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:blue_apricorn"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:blue_apricorn",
+  "input": {"item": "cobblemon:blue_apricorn_seed"},
+  "soil": {"tag": "botanypots:soil/apricorn"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:blue_apricorn"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:blue_apricorn"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:blue_apricorn_seed"},
+                    "chance": 0.10
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:pink_apricorn"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:pink_apricorn",
+  "input": {"item": "cobblemon:pink_apricorn_seed"},
+  "soil": {"tag": "botanypots:soil/apricorn"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:pink_apricorn"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:pink_apricorn"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:pink_apricorn_seed"},
+                    "chance": 0.10
+                }
+            ]
+        }
+    ]
+}

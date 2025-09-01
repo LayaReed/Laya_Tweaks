@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:white_mint_leaf"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:white_mint_leaf",
+  "input": {"item": "cobblemon:white_mint_seeds"},
+  "grow_time": 2400,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:white_mint_leaf"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:white_mint_leaf"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:white_mint_leaf"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

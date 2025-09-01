@@ -1,0 +1,64 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:revival_herb"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:revival_herb",
+  "input": {"item": "cobblemon:revival_herb"},
+  "soil": {"tag":"botanypots:soil/water"},
+  "grow_time": 6000,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:revival_herb"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:revival_herb"},
+                    "chance": 2
+                },
+                {
+                    "result": {"id": "cobblemon:pep_up_flower"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:revival_herb"},
+                    "chance": 0.5
+                },
+                {
+                    "result": {"id": "cobblemon:revival_herb"},
+                    "chance": 0.5
+                },
+                {
+                    "result": {"id": "cobblemon:pep_up_flower"},
+                    "chance": 0.5
+                },
+                {
+                    "result": {"id": "cobblemon:mental_herb"},
+                    "chance": 0.02
+                },
+                {
+                    "result": {"id": "cobblemon:power_herb"},
+                    "chance": 0.02
+                },
+                {
+                    "result": {"id": "cobblemon:white_herb"},
+                    "chance": 0.02
+                },
+                {
+                    "result": {"id": "cobblemon:mirror_herb"},
+                    "chance": 0.02
+                }
+            ]
+        }
+    ]
+}

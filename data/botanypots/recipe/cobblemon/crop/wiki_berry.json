@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:wiki_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:wiki_berry",
+  "input": {"item": "cobblemon:wiki_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:wiki_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:wiki_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:wiki_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

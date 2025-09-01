@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:magost_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:magost_berry",
+  "input": {"item": "cobblemon:magost_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:magost_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:magost_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:magost_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

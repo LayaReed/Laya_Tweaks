@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:pinap_berry"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:pinap_berry",
+  "input": {"item": "cobblemon:pinap_berry"},
+  "grow_time": 3600,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:pinap_berry"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:pinap_berry"},
+                    "chance": 1
+                },
+                {
+                    "result": {"id": "cobblemon:pinap_berry"},
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}
