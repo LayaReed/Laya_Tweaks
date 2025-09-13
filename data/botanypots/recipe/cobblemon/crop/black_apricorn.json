@@ -10,7 +10,7 @@
   "block": "cobblemon:black_apricorn",
   "input": {"item": "cobblemon:black_apricorn_seed"},
   "soil": {"tag": "botanypots:soil/apricorn"},
-  "grow_time": 3600,
+  "grow_time": 1200,
   "display": 
     {
         "type": "botanypots:aging",
@@ -25,10 +25,6 @@
                 {
                     "result": {"id": "cobblemon:black_apricorn"},
                     "chance": 1
-                },
-                {
-                    "result": {"id": "cobblemon:black_apricorn_seed"},
-                    "chance": 0.10
                 }
             ]
         }

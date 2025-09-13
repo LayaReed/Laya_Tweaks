@@ -9,7 +9,7 @@
   "type": "botanypots:block_derived_crop",
   "block": "cobblemon:enigma_berry",
   "input": {"item": "cobblemon:enigma_berry"},
-  "grow_time": 3600,
+  "grow_time": 1200,
   "display": 
     {
         "type": "botanypots:aging",

@@ -9,7 +9,7 @@
   "type": "botanypots:block_derived_crop",
   "block": "cobblemon:babiri_berry",
   "input": {"item": "cobblemon:babiri_berry"},
-  "grow_time": 3600,
+  "grow_time": 1200,
   "display": 
     {
         "type": "botanypots:aging",

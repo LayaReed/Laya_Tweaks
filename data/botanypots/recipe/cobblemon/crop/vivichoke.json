@@ -9,7 +9,7 @@
   "type": "botanypots:block_derived_crop",
   "block": "cobblemon:vivichoke",
   "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 6000,
+  "grow_time": 3600,
   "display": 
     {
         "type": "botanypots:aging",
