@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "Datapack where I added some Accessories slots",
+        "pack_format": 48,
+        "supported_formats": {
+            "min_inclusive": 8,
+            "max_inclusive": 34
+        }
+    }
+}

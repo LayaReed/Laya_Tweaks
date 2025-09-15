@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": 
+    [
+        {
+        "type": "bookshelf:block_exists",
+        "values": ["cobblemon:black_apricorn"]
+        }
+    ],
+  "type": "botanypots:block_derived_crop",
+  "block": "cobblemon:black_apricorn",
+  "input": {"item": "cobblemon:black_apricorn_seed"},
+  "soil": {"tag": "botanypots:soil/apricorn"},
+  "grow_time": 1200,
+  "display": 
+    {
+        "type": "botanypots:aging",
+        "block": "cobblemon:black_apricorn"
+    },
+  "drops": 
+    [
+        {
+            "type": "botanypots:items",
+            "items": 
+            [
+                {
+                    "result": {"id": "cobblemon:black_apricorn"},
+                    "chance": 1
+                }
+            ]
+        }
+    ]
+}

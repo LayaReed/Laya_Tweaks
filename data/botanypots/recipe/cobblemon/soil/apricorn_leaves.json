@@ -1,9 +1,0 @@
-{
-  "bookshelf:load_conditions": 
-  [{
-      "type": "bookshelf:block_exists",
-      "values": [ "cobblemon:apricorn_leaves" ]
-    }],
-  "type": "botanypots:block_derived_soil",
-  "block": "cobblemon:apricorn_leaves"
-}

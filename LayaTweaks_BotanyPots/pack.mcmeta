@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "Datapack to include compatability between Cobblemon and BotanyPots",
+        "pack_format": 48,
+        "supported_formats": {
+            "min_inclusive": 8,
+            "max_inclusive": 34
+        }
+    }
+}
