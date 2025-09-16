@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:hops"]
+      "values": ["cobblemon:hops_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:hops",
+  "block": "croptopia:hops_crop",
   "input": {"item": "croptopia:hops_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:hops"
+    "block": "croptopia:hops_crop"
   },
   "drops":
   [

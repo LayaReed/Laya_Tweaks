@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:turnip"]
+      "values": ["cobblemon:turnip_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:turnip",
+  "block": "croptopia:turnip_crop",
   "input": {"item": "croptopia:turnip_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:turnip"
+    "block": "croptopia:turnip_crop"
   },
   "drops":
   [

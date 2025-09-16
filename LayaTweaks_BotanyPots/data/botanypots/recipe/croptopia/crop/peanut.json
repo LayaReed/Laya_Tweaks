@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:peanut"]
+      "values": ["cobblemon:peanut_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:peanut",
+  "block": "croptopia:peanut_crop",
   "input": {"item": "croptopia:peanut_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:peanut"
+    "block": "croptopia:peanut_crop"
   },
   "drops":
   [

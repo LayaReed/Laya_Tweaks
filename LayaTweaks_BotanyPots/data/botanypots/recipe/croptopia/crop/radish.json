@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:radish"]
+      "values": ["cobblemon:radish_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:radish",
+  "block": "croptopia:radish_crop",
   "input": {"item": "croptopia:radish_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:radish"
+    "block": "croptopia:radish_crop"
   },
   "drops":
   [

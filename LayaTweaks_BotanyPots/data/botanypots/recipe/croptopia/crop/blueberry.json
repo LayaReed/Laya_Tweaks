@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:blueberry"]
+      "values": ["cobblemon:blueberry_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:blueberry",
+  "block": "croptopia:blueberry_crop",
   "input": {"item": "croptopia:blueberry_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:blueberry"
+    "block": "croptopia:blueberry_crop"
   },
   "drops":
   [

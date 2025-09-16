@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:yam"]
+      "values": ["cobblemon:yam_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:yam",
+  "block": "croptopia:yam_crop",
   "input": {"item": "croptopia:yam_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:yam"
+    "block": "croptopia:yam_crop"
   },
   "drops":
   [

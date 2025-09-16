@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:kale"]
+      "values": ["cobblemon:kale_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:kale",
+  "block": "croptopia:kale_crop",
   "input": {"item": "croptopia:kale_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:kale"
+    "block": "croptopia:kale_crop"
   },
   "drops":
   [

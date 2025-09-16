@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:bellpepper"]
+      "values": ["cobblemon:bellpepper_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:bellpepper",
+  "block": "croptopia:bellpepper_crop",
   "input": {"item": "croptopia:bellpepper_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:bellpepper"
+    "block": "croptopia:bellpepper_crop"
   },
   "drops":
   [

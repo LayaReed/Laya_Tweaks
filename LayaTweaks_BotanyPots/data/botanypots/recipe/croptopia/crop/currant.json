@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:currant"]
+      "values": ["cobblemon:currant_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:currant",
+  "block": "croptopia:currant_crop",
   "input": {"item": "croptopia:currant_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:currant"
+    "block": "croptopia:currant_crop"
   },
   "drops":
   [

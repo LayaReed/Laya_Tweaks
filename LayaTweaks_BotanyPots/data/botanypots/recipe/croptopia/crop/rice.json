@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:rice"]
+      "values": ["cobblemon:rice_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:rice",
+  "block": "croptopia:rice_crop",
   "input": {"item": "croptopia:rice_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:rice"
+    "block": "croptopia:rice_crop"
   },
   "drops":
   [

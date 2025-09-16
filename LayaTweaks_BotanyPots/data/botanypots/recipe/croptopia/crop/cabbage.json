@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:cabbage"]
+      "values": ["cobblemon:cabbage_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:cabbage",
+  "block": "croptopia:cabbage_crop",
   "input": {"item": "croptopia:cabbage_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:cabbage"
+    "block": "croptopia:cabbage_crop"
   },
   "drops":
   [

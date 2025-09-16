@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:broccoli"]
+      "values": ["cobblemon:broccoli_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:broccoli",
+  "block": "croptopia:broccoli_crop",
   "input": {"item": "croptopia:broccoli_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:broccoli"
+    "block": "croptopia:broccoli_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:cauliflower"]
+      "values": ["cobblemon:cauliflower_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:cauliflower",
+  "block": "croptopia:cauliflower_crop",
   "input": {"item": "croptopia:cauliflower_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:cauliflower"
+    "block": "croptopia:cauliflower_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:eggplant"]
+      "values": ["cobblemon:eggplant_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:eggplant",
+  "block": "croptopia:eggplant_crop",
   "input": {"item": "croptopia:eggplant_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:eggplant"
+    "block": "croptopia:eggplant_crop"
   },
   "drops":
   [

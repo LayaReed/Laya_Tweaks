@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:tomato"]
+      "values": ["cobblemon:tomato_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:tomato",
+  "block": "croptopia:tomato_crop",
   "input": {"item": "croptopia:tomato_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:tomato"
+    "block": "croptopia:tomato_crop"
   },
   "drops":
   [

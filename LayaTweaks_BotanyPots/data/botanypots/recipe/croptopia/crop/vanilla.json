@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vanilla"]
+      "values": ["cobblemon:vanilla_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:vanilla",
+  "block": "croptopia:vanilla_crop",
   "input": {"item": "croptopia:vanilla_seeds"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:vanilla"
+    "block": "croptopia:vanilla_crop"
   },
   "drops":
   [

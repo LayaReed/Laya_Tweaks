@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:leek"]
+      "values": ["cobblemon:leek_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:leek",
+  "block": "croptopia:leek_crop",
   "input": {"item": "croptopia:leek_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:leek"
+    "block": "croptopia:leek_crop"
   },
   "drops":
   [

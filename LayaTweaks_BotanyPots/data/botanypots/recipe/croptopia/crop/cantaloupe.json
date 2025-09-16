@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:cantaloupe"]
+      "values": ["cobblemon:cantaloupe_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:cantaloupe",
+  "block": "croptopia:cantaloupe_crop",
   "input": {"item": "croptopia:cantaloupe_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:cantaloupe"
+    "block": "croptopia:cantaloupe_crop"
   },
   "drops":
   [

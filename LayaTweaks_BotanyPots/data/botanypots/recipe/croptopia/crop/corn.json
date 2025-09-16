@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:corn"]
+      "values": ["cobblemon:corn_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:corn",
+  "block": "croptopia:corn_crop",
   "input": {"item": "croptopia:corn_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:corn"
+    "block": "croptopia:corn_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:chile_pepper"]
+      "values": ["cobblemon:chile_pepper_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:chile_pepper",
+  "block": "croptopia:chile_pepper_crop",
   "input": {"item": "croptopia:chile_pepper_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:chile_pepper"
+    "block": "croptopia:chile_pepper_crop"
   },
   "drops":
   [

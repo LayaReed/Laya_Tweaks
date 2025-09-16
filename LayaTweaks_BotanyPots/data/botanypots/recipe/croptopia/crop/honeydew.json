@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:honeydew"]
+      "values": ["cobblemon:honeydew_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:honeydew",
+  "block": "croptopia:honeydew_crop",
   "input": {"item": "croptopia:honeydew_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:honeydew"
+    "block": "croptopia:honeydew_crop"
   },
   "drops":
   [

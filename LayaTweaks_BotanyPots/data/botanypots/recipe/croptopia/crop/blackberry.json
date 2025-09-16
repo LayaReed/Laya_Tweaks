@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:blackberry"]
+      "values": ["cobblemon:blackberry_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:blackberry",
+  "block": "croptopia:blackberry_crop",
   "input": {"item": "croptopia:blackberry_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:blackberry"
+    "block": "croptopia:blackberry_crop"
   },
   "drops":
   [

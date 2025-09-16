@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:coffee_beans"]
+      "values": ["cobblemon:coffee_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:coffee_beans",
+  "block": "croptopia:coffee_crop",
   "input": {"item": "croptopia:coffee_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:coffee_beans"
+    "block": "croptopia:coffee_crop"
   },
   "drops":
   [

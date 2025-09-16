@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:kiwi"]
+      "values": ["cobblemon:kiwi_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:kiwi",
+  "block": "croptopia:kiwi_crop",
   "input": {"item": "croptopia:kiwi_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:kiwi"
+    "block": "croptopia:kiwi_crop"
   },
   "drops":
   [

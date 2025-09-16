@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:squash"]
+      "values": ["cobblemon:squash_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:squash",
+  "block": "croptopia:squash_crop",
   "input": {"item": "croptopia:squash_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:squash"
+    "block": "croptopia:squash_crop"
   },
   "drops":
   [

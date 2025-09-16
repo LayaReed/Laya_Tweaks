@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:greenbean"]
+      "values": ["cobblemon:greenbean_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:greenbean",
+  "block": "croptopia:greenbean_crop",
   "input": {"item": "croptopia:greenbean_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:greenbean"
+    "block": "croptopia:greenbean_crop"
   },
   "drops":
   [

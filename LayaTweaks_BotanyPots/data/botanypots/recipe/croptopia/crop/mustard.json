@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:mustard"]
+      "values": ["cobblemon:mustard_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:mustard",
+  "block": "croptopia:mustard_crop",
   "input": {"item": "croptopia:mustard_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:mustard"
+    "block": "croptopia:mustard_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:lettuce"]
+      "values": ["cobblemon:lettuce_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:lettuce",
+  "block": "croptopia:lettuce_crop",
   "input": {"item": "croptopia:lettuce_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:lettuce"
+    "block": "croptopia:lettuce_crop"
   },
   "drops":
   [

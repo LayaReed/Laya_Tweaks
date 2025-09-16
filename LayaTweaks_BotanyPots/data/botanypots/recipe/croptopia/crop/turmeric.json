@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:turmeric"]
+      "values": ["cobblemon:turmeric_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:turmeric",
+  "block": "croptopia:turmeric_crop",
   "input": {"item": "croptopia:turmeric_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:turmeric"
+    "block": "croptopia:turmeric_crop"
   },
   "drops":
   [

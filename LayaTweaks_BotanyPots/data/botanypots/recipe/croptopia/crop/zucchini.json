@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:zucchini"]
+      "values": ["cobblemon:zucchini_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:zucchini",
+  "block": "croptopia:zucchini_crop",
   "input": {"item": "croptopia:zucchini_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:zucchini"
+    "block": "croptopia:zucchini_crop"
   },
   "drops":
   [

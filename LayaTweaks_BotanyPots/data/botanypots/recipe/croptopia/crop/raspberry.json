@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:raspberry"]
+      "values": ["cobblemon:raspberry_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:raspberry",
+  "block": "croptopia:raspberry_crop",
   "input": {"item": "croptopia:raspberry_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:raspberry"
+    "block": "croptopia:raspberry_crop"
   },
   "drops":
   [

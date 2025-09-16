@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:pineapple"]
+      "values": ["cobblemon:pineapple_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:pineapple",
+  "block": "croptopia:pineapple_crop",
   "input": {"item": "croptopia:pineapple_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:pineapple"
+    "block": "croptopia:pineapple_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:cranberry"]
+      "values": ["cobblemon:cranberry_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:cranberry",
+  "block": "croptopia:cranberry_crop",
   "input": {"item": "croptopia:cranberry_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:cranberry"
+    "block": "croptopia:cranberry_crop"
   },
   "drops":
   [

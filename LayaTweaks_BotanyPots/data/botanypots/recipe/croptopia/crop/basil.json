@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:basil"]
+      "values": ["cobblemon:basil_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:basil",
+  "block": "croptopia:basil_crop",
   "input": {"item": "croptopia:basil_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:basil"
+    "block": "croptopia:basil_crop"
   },
   "drops":
   [

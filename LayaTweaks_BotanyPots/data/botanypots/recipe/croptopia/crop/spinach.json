@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:spinach"]
+      "values": ["cobblemon:spinach_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:spinach",
+  "block": "croptopia:spinach_crop",
   "input": {"item": "croptopia:spinach_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:spinach"
+    "block": "croptopia:spinach_crop"
   },
   "drops":
   [

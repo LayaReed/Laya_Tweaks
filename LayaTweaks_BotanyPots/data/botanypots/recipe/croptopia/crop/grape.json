@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:grape"]
+      "values": ["cobblemon:grape_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:grape",
+  "block": "croptopia:grape_crop",
   "input": {"item": "croptopia:grape_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:grape"
+    "block": "croptopia:grape_crop"
   },
   "drops":
   [

@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:cucumber"]
+      "values": ["cobblemon:cucumber_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:cucumber",
+  "block": "croptopia:cucumber_crop",
   "input": {"item": "croptopia:cucumber_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:cucumber"
+    "block": "croptopia:cucumber_crop"
   },
   "drops":
   [

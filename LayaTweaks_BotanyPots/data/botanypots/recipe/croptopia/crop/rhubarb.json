@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:rhubarb"]
+      "values": ["cobblemon:rhubarb_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "croptopia:rhubarb",
+  "block": "croptopia:rhubarb_crop",
   "input": {"item": "croptopia:rhubarb_seed"},
   "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "croptopia:rhubarb"
+    "block": "croptopia:rhubarb_crop"
   },
   "drops":
   [
