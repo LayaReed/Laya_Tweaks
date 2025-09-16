@@ -1,7 +1,7 @@
 # Laya_Tweaks
 Tweaks I've done as minecraft datapacks. There will be various kinds, eventually. I'll update the readme based off of the latest release.
 
-## Accesories
+## [Accesories](https://www.curseforge.com/minecraft/mc-mods/accessories)
 Same as before:
 - 1 extra "back" slot
 - 1 extra "charm" slot
@@ -11,9 +11,9 @@ Same as before:
 - 4 extra "ring" slots
 - 1 extra "shoes" slot
 
-## Botany Pots
+## [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots)
 
-#### Cobblemon Compat
+#### [Cobblemon](https://www.curseforge.com/minecraft/mc-mods/cobblemon)
 | Crop | Grow Time | Drop | Extra Drops |
 | ------------ | ------------ | ------------ | ------------ |
 | Apricorns | 1 min | 1 apricorn (100%) | 1 apricorn (50%) |
