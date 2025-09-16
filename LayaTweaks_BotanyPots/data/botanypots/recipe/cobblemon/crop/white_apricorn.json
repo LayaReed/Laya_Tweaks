@@ -25,6 +25,10 @@
                 {
                     "result": {"id": "cobblemon:white_apricorn"},
                     "chance": 1
+                },
+                {
+                  "result": {"id": "cobblemon:white_apricorn"},
+                  "chance": 0.5
                 }
             ]
         }
