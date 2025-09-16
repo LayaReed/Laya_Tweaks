@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:blackberry"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:blackberry",
+  "input": {"item": "croptopia:blackberry_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:blackberry"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:blackberry"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:blackberry"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

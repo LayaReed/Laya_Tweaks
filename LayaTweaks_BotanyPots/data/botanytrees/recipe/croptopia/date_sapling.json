@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:date_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:date_sapling",
+  "input": {"item": "croptopia:date_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:date_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:date"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:date"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

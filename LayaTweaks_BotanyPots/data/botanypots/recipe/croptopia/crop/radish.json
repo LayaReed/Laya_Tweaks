@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:radish"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:radish",
+  "input": {"item": "croptopia:radish_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:radish"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:radish"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:radish"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

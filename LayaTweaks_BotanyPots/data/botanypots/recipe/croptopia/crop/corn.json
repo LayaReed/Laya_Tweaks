@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:corn"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:corn",
+  "input": {"item": "croptopia:corn_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:corn"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:corn"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:corn"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

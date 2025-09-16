@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Datapack to include compatability between Cobblemon and BotanyPots",
+        "description": "Datapack to include compatability for BotanyPots and other agriculture mods",
         "pack_format": 48,
         "supported_formats": {
             "min_inclusive": 8,

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:yam"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:yam",
+  "input": {"item": "croptopia:yam_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:yam"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:yam"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:yam"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

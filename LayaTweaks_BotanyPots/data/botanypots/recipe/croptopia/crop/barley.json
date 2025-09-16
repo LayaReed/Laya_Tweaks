@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:barley"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:barley",
+  "input": {"item": "croptopia:barley_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:barley"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:barley"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:barley"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

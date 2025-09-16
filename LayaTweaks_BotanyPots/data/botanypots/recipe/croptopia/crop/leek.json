@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:leek"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:leek",
+  "input": {"item": "croptopia:leek_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:leek"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:leek"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:leek"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:pineapple"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:pineapple",
+  "input": {"item": "croptopia:pineapple_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:pineapple"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:pineapple"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:pineapple"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

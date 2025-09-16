@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:onion"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:onion",
+  "input": {"item": "croptopia:onion_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:onion"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:onion"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:onion"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:garlic"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:garlic",
+  "input": {"item": "croptopia:garlic_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:garlic"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:garlic"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:garlic"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cranberry"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cranberry",
+  "input": {"item": "croptopia:cranberry_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cranberry"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cranberry"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cranberry"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

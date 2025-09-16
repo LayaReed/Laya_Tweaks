@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:sweetpotato"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:sweetpotato",
+  "input": {"item": "croptopia:sweetpotato_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:sweetpotato"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:sweetpotato"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:sweetpotato"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

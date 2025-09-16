@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:greenbean"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:greenbean",
+  "input": {"item": "croptopia:greenbean_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:greenbean"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:greenbean"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:greenbean"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

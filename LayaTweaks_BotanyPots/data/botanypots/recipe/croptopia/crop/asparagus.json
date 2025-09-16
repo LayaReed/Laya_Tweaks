@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:asparagus"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:asparagus",
+  "input": {"item": "croptopia:asparagus_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:asparagus"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:asparagus"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:asparagus"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

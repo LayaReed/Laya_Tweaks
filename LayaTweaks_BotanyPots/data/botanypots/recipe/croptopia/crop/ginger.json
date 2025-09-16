@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:ginger"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:ginger",
+  "input": {"item": "croptopia:ginger_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:ginger"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:ginger"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:ginger"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

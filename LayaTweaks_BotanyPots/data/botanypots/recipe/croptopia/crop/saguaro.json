@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:saguaro"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:saguaro",
+  "input": {"item": "croptopia:saguaro_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:saguaro"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:saguaro"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:saguaro"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

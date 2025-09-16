@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:rhubarb"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:rhubarb",
+  "input": {"item": "croptopia:rhubarb_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:rhubarb"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:rhubarb"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:rhubarb"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:pepper"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:pepper",
+  "input": {"item": "croptopia:pepper_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:pepper"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:pepper"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:pepper"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

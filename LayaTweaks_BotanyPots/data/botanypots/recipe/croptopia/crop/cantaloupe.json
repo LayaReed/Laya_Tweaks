@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cantaloupe"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cantaloupe",
+  "input": {"item": "croptopia:cantaloupe_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cantaloupe"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cantaloupe"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cantaloupe"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

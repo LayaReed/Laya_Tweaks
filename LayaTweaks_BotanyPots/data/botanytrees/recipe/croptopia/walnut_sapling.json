@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:walnut_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:walnut_sapling",
+  "input": {"item": "croptopia:walnut_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:walnut_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:walnut"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:walnut"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

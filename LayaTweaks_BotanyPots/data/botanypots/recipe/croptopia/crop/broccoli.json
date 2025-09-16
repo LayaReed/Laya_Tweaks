@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:broccoli"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:broccoli",
+  "input": {"item": "croptopia:broccoli_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:broccoli"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:broccoli"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:broccoli"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

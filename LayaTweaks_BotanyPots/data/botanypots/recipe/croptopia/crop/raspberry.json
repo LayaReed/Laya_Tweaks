@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:raspberry"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:raspberry",
+  "input": {"item": "croptopia:raspberry_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:raspberry"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:raspberry"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:raspberry"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

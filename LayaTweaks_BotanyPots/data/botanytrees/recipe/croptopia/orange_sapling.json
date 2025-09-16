@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:orange_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:orange_sapling",
+  "input": {"item": "croptopia:orange_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:orange_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:orange"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:orange"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

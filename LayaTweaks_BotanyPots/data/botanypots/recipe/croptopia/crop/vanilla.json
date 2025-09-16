@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:vanilla"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:vanilla",
+  "input": {"item": "croptopia:vanilla_seeds"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:vanilla"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:vanilla"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:vanilla"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

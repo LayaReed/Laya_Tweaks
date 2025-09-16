@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:hops"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:hops",
+  "input": {"item": "croptopia:hops_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:hops"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:hops"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:hops"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

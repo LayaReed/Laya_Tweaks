@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:tomatillo"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:tomatillo",
+  "input": {"item": "croptopia:tomatillo_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:tomatillo"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:tomatillo"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:tomatillo"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

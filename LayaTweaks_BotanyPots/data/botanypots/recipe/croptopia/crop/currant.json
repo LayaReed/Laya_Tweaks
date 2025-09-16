@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:currant"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:currant",
+  "input": {"item": "croptopia:currant_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:currant"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:currant"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:currant"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

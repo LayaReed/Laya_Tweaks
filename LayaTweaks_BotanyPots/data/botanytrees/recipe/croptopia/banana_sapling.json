@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:banana_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:banana_sapling",
+  "input": {"item": "croptopia:banana_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:banana_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:banana"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:banana"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

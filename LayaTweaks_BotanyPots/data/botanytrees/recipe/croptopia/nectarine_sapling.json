@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:nectarine_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:nectarine_sapling",
+  "input": {"item": "croptopia:nectarine_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:nectarine_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:nectarine"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:nectarine"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

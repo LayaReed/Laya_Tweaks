@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:greenonion"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:greenonion",
+  "input": {"item": "croptopia:greenonion_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:greenonion"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:greenonion"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:greenonion"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

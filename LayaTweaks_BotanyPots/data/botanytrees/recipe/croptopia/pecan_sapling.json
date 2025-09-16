@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:pecan_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:pecan_sapling",
+  "input": {"item": "croptopia:pecan_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:pecan_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:pecan"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:pecan"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

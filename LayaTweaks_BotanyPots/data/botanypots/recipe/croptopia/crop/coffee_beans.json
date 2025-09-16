@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:coffee_beans"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:coffee_beans",
+  "input": {"item": "croptopia:coffee_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:coffee_beans"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:coffee_beans"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:coffee_beans"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

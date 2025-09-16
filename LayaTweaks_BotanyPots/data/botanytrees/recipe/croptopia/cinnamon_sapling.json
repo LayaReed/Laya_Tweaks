@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cinnamon_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cinnamon_sapling",
+  "input": {"item": "croptopia:cinnamon_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cinnamon_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cinnamon"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cinnamon"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

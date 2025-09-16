@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cucumber"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cucumber",
+  "input": {"item": "croptopia:cucumber_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cucumber"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cucumber"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cucumber"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:tea_leaves"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:tea_leaves",
+  "input": {"item": "croptopia:tea_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:tea_leaves"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:tea_leaves"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:tea_leaves"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

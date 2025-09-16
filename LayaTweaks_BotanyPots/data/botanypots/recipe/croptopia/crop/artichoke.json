@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:artichoke"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:artichoke",
+  "input": {"item": "croptopia:artichoke_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:artichoke"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:artichoke"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:artichoke"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

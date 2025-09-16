@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cherry_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cherry_sapling",
+  "input": {"item": "croptopia:cherry_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cherry_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cherry"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cherry"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

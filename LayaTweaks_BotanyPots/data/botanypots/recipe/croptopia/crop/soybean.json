@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:soybean"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:soybean",
+  "input": {"item": "croptopia:soybean_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:soybean"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:soybean"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:soybean"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

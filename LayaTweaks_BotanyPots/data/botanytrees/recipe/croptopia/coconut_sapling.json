@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:coconut_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:coconut_sapling",
+  "input": {"item": "croptopia:coconut_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:coconut_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:coconut"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:coconut"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

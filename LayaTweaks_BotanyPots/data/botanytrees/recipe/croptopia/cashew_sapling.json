@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:cashew_sapling"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cashew_sapling",
+  "input": {"item": "croptopia:cashew_sapling"},
+  "grow_time": 2400,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:cashew_sapling"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:cashew"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:cashew"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

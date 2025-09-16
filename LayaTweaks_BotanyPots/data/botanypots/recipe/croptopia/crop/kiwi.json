@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["cobblemon:kiwi"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:kiwi",
+  "input": {"item": "croptopia:kiwi_seed"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "croptopia:kiwi"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "croptopia:kiwi"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "croptopia:kiwi"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}
