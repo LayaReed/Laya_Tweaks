@@ -34,10 +34,6 @@
           "chance": 0.5
         },
         {
-          "result": {"id": "cobblemon:revival_herb"},
-          "chance": 0.5
-        },
-        {
           "result": {"id": "cobblemon:pep_up_flower"},
           "chance": 0.5
         }
