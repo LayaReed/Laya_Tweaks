@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke"]
+      "values": ["cobblemon:vivichoke_seeds"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke",
+  "block": "cobblemon:vivichoke_seeds",
   "input": {"item": "cobblemon:vivichoke_seeds"},
   "grow_time": 3600,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke"
+    "block": "cobblemon:vivichoke_seeds"
   },
   "drops":
   [
