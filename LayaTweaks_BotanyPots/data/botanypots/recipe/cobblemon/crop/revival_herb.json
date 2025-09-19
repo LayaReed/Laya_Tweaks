@@ -40,22 +40,6 @@
         {
           "result": {"id": "cobblemon:pep_up_flower"},
           "chance": 0.5
-        },
-        {
-          "result": {"id": "cobblemon:mental_herb"},
-          "chance": 0.02
-        },
-        {
-          "result": {"id": "cobblemon:power_herb"},
-          "chance": 0.02
-        },
-        {
-          "result": {"id": "cobblemon:white_herb"},
-          "chance": 0.02
-        },
-        {
-          "result": {"id": "cobblemon:mirror_herb"},
-          "chance": 0.02
         }
       ]
     }
