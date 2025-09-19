@@ -1,20 +1,19 @@
 {
-  "bookshelf:load_conditions":
-  [
+  "bookshelf:load_conditions": [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:medicinal_leek"]
+      "values": [
+        "cobblemon:medicinal_leek"
+      ]
     }
   ],
   "type": "botanypots:block_derived_crop",
   "block": "cobblemon:medicinal_leek",
-  "input": {"item": "cobblemon:medicinal_leek"},
-  "soil": {"tag": "botanypots:soil/water"},
-  "grow_time": 1200,
-  "display":
-  {
-    "type": "botanypots:aging",
-    "block": "cobblemon:medicinal_leek"
+  "input": {
+    "item": "cobblemon:medicinal_leek"
+  },
+  "soil": {
+    "tag": "botanypots:soil/water"
   },
   "drops":
   [
