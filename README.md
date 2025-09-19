@@ -20,6 +20,6 @@ Same as before:
 | Berries | 1 min | 1 berry (100%) | 1 berry (50%) |
 | Medicinal Leek | 1 min | 1 leek (100%) | 1 leek (50%) |
 | Mints | 2 min | 1 mint (100%) | 1 mint (50%) |
-| Big Root | 2 min | 1 bigroot (100%) | 1 energy root (25%) |
-| Revival Herb | 5 min | 2 revival herb (100%) <br> 1 pep-up flower (100%) | 1-2 revival herb (50%) <br> 1 pep-up flower (50%) <br> 1 mental herb (2%) <br> 1 power herb (2%) <br> 1 white herb (2%) <br> 1 mirror herb (2%) |
+| Big Root | 2 min | 1 bigroot (100%) | 1 bigroot (50%) <br> 1 energy root (25%) |
+| Revival Herb | 5 min | 1 revival herb (100%) <br> 1 pep-up flower (100%) | 1 revival herb (50%) <br> 1 pep-up flower (50%)|
 | Vivichoke | 3 min | 1 vivichoke (100%) | 1 seed (50%) |
