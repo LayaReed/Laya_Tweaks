@@ -26,6 +26,10 @@
                     "chance": 1
                 },
                 {
+                  "result": {"id": "cobblemon:big_root"},
+                  "chance": 0.5
+                },
+                {
                     "result": {"id":"cobblemon:energy_root"},
                     "chance": 0.25
                 }

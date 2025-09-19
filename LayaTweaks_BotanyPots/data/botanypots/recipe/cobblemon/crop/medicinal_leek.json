@@ -23,7 +23,7 @@
       [
         {
           "result": {"id": "cobblemon:medicinal_leek"},
-          "chance": 2
+          "chance": 1
         },
         {
           "result": {"id": "cobblemon:medicinal_leek"},
