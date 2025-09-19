@@ -3,17 +3,17 @@
     [
         {
         "type": "bookshelf:block_exists",
-        "values": ["cobblemon:cyan_mint_leaf"]
+        "values": ["cobblemon:cyan_mint"]
         }
     ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:cyan_mint_leaf",
+  "block": "cobblemon:cyan_mint",
   "input": {"item": "cobblemon:cyan_mint_seeds"},
   "grow_time": 2400,
   "display": 
     {
         "type": "botanypots:aging",
-        "block": "cobblemon:cyan_mint_leaf"
+        "block": "cobblemon:cyan_mint"
     },
   "drops": 
     [
