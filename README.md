@@ -22,4 +22,4 @@ Same as before:
 | Mints | 2 min | 1 mint (100%) | 1 mint (50%) |
 | Big Root | 2 min | 1 bigroot (100%) | 1 bigroot (50%) <br> 1 energy root (25%) |
 | Revival Herb | 5 min | 1 revival herb (100%) <br> 1 pep-up flower (100%) | 1 revival herb (50%) <br> 1 pep-up flower (50%)|
-| Vivichoke | 3 min | 1 vivichoke (100%) | 1 seed (50%) |
+| Vivichoke | 3 min | 1 vivichoke (100%) | 1 vivichoke (50%) |
