@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["croptopia:banana_sapling"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "croptopia:banana_sapling",
+  "input": {"item": "croptopia:banana_sapling"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "croptopia:banana_sapling"
   },
   "drops":
   [
@@ -22,11 +22,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "croptopia:banana"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "croptopia:banana"},
           "chance": 0.5
         }
       ]

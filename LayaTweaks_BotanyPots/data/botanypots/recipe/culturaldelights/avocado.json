@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["culturaldelights:avocado_sapling"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "culturaldelights:avocado_sapling",
+  "input": {"item": "culturaldelights:avocado_sapling"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "culturaldelights:avocado_sapling"
   },
   "drops":
   [
@@ -22,11 +22,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "culturaldelights:avocado"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "culturaldelights:avocado"},
           "chance": 0.5
         }
       ]

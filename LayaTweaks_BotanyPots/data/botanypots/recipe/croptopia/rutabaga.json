@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["croptopia:rutabaga_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "croptopia:rutabaga_crop",
+  "input": {"item": "croptopia:rutabaga_seed"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "croptopia:rutabaga_crop"
   },
   "drops":
   [
@@ -22,11 +22,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "croptopia:rutabaga"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "croptopia:rutabaga"},
           "chance": 0.5
         }
       ]

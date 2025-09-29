@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["culturaldelights:corn_upper"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "culturaldelights:corn_upper",
+  "input": {"item": "culturaldelights:corn_kernels"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "culturaldelights:corn_upper"
   },
   "drops":
   [
@@ -22,11 +22,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "culturaldelights:corn_cob"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "culturaldelights:corn_cob"},
           "chance": 0.5
         }
       ]

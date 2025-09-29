@@ -13,8 +13,13 @@
   "grow_time": 1200,
   "display": 
     {
-        "type": "botanypots:aging",
-        "block": "cobblemon:blue_apricorn"
+      "type": "botanypots:aging",
+      "block": "cobblemon:blue_apricorn",
+      "options":
+        {
+          "rotation": "X_270",
+          "offset": [0,-0.1,0]
+        }
     },
   "drops": 
     [

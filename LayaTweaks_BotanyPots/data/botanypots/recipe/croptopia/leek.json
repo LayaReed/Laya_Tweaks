@@ -3,17 +3,17 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["croptopia:leek_crop"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "croptopia:leek_crop",
+  "input": {"item": "croptopia:leek_seed"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "croptopia:leek_crop"
   },
   "drops":
   [
@@ -22,11 +22,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "croptopia:leek"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "croptopia:leek"},
           "chance": 0.5
         }
       ]

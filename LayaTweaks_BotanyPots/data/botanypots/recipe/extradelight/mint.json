@@ -3,17 +3,22 @@
   [
     {
       "type": "bookshelf:block_exists",
-      "values": ["cobblemon:vivichoke_seeds"]
+      "values": ["extradelight:hanging_mint"]
     }
   ],
   "type": "botanypots:block_derived_crop",
-  "block": "cobblemon:vivichoke_seeds",
-  "input": {"item": "cobblemon:vivichoke_seeds"},
-  "grow_time": 3600,
+  "block": "extradelight:hanging_mint",
+  "input": {"item": "extradelight:mint"},
+  "grow_time": 1200,
   "display":
   {
     "type": "botanypots:aging",
-    "block": "cobblemon:vivichoke_seeds"
+    "block": "extradelight:hanging_mint",
+    "options":
+    {
+      "rotation": "X_180",
+      "offset": [0,-0.1,0]
+    }
   },
   "drops":
   [
@@ -22,11 +27,11 @@
       "items":
       [
         {
-          "result": {"id": "cobblemon:vivichoke"},
+          "result": {"id": "extradelight:mint"},
           "chance": 1
         },
         {
-          "result": {"id": "cobblemon:vivichoke_seeds"},
+          "result": {"id": "extradelight:mint"},
           "chance": 0.5
         }
       ]
