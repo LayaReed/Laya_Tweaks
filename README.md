@@ -23,3 +23,18 @@ Same as before:
 | Big Root | 2 min | 1 bigroot (100%) | 1 bigroot (50%) <br> 1 energy root (25%) |
 | Revival Herb | 5 min | 1 revival herb (100%) <br> 1 pep-up flower (100%) | 1 revival herb (50%) <br> 1 pep-up flower (50%)|
 | Vivichoke | 3 min | 1 vivichoke (100%) | 1 vivichoke (50%) |
+
+#### [Croptopia](https://www.curseforge.com/minecraft/mc-mods/croptopia)
+| Crop | Grow Time | Drop | Extra Drops |
+| ------------ | ------------ | ------------ | ------------ |
+| All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
+
+#### [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights)
+| Crop | Grow Time | Drop | Extra Drops |
+| ------------ | ------------ | ------------ | ------------ |
+| All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
+
+#### [Extra Delight](https://www.curseforge.com/minecraft/mc-mods/extradelight)
+| Crop | Grow Time | Drop | Extra Drops |
+| ------------ | ------------ | ------------ | ------------ |
+| All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
