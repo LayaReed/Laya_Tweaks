@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["ars_nouveau:sourceberry_bush"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "ars_nouveau:sourceberry_bush",
+  "input": {"item": "ars_nouveau:sourceberry_bush"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "ars_nouveau:sourceberry_bush"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "ars_nouveau:sourceberry_bush"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "ars_nouveau:sourceberry_bush"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

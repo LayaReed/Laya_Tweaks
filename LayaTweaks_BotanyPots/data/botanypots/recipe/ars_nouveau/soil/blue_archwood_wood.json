@@ -1,0 +1,9 @@
+{
+  "bookshelf:load_conditions":
+  [{
+    "type": "bookshelf:block_exists",
+    "values": [ "ars_nouveau:blue_archwood_wood" ]
+  }],
+  "type": "botanypots:block_derived_soil",
+  "block": "ars_nouveau:blue_archwood_wood"
+}

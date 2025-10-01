@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["ars_nouveau:magebloom_crop"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "ars_nouveau:magebloom_crop",
+  "input": {"item": "ars_nouveau:magebloom_crop"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "ars_nouveau:magebloom_crop"
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "ars_nouveau:magebloom"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "ars_nouveau:magebloom"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

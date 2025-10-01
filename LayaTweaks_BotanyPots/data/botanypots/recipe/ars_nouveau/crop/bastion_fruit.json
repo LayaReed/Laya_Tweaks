@@ -1,0 +1,41 @@
+{
+  "bookshelf:load_conditions":
+  [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["ars_nouveau:bastion_pod"]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "ars_nouveau:bastion_pod",
+  "input": {"item": "ars_nouveau:bastion_pod"},
+  "soil": {"tag": "botanypots:soil/purple_archwood"},
+  "grow_time": 1200,
+  "display":
+  {
+    "type": "botanypots:aging",
+    "block": "ars_nouveau:bastion_pod",
+    "options":
+    {
+      "rotation": "X_270",
+      "offset": [0,-0.1,0]
+    }
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "ars_nouveau:bastion_pod"},
+          "chance": 1
+        },
+        {
+          "result": {"id": "ars_nouveau:bastion_pod"},
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}
