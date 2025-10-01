@@ -38,3 +38,13 @@ Same as before:
 | Crop | Grow Time | Drop | Extra Drops |
 | ------------ | ------------ | ------------ | ------------ |
 | All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
+
+#### [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau)
+| Crop | Grow Time | Drop | Extra Drops |
+| ------------ | ------------ | ------------ | ------------ |
+| All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
+
+#### [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental)
+| Crop | Grow Time | Drop | Extra Drops |
+| ------------ | ------------ | ------------ | ------------ |
+| All Crops | 1 min | 1 crop (100%) | 1 crop (50%) |
