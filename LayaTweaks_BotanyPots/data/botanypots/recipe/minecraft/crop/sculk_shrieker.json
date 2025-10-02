@@ -1,0 +1,29 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:sculk_shrieker",
+  "soil": {
+    "tag": "botanypots:soil/sculk"
+  },
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "sculk_shrieker",
+      "properties": {
+        "down": "true"
+      }
+    }
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "minecraft:sculk_shrieker"},
+          "chance": 1
+        }
+      ]
+    }
+  ]
+}

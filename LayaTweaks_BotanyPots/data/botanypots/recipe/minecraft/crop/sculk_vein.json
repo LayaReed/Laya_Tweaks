@@ -1,0 +1,29 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:sculk_vein",
+  "soil": {
+    "tag": "botanypots:soil/sculk"
+  },
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "sculk_vein",
+      "properties": {
+        "down": "true"
+      }
+    }
+  },
+  "drops":
+  [
+    {
+      "type": "botanypots:items",
+      "items":
+      [
+        {
+          "result": {"id": "minecraft:sculk_vein"},
+          "chance": 1
+        }
+      ]
+    }
+  ]
+}
