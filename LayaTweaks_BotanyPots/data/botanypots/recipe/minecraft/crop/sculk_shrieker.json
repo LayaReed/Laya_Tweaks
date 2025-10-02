@@ -4,15 +4,6 @@
   "soil": {
     "tag": "botanypots:soil/sculk"
   },
-  "display": {
-    "type": "botanypots:simple",
-    "block_state": {
-      "block": "sculk_shrieker",
-      "properties": {
-        "down": "true"
-      }
-    }
-  },
   "drops":
   [
     {
